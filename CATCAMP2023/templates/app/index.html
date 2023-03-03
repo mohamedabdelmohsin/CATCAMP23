@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HOMEPAGE</title>
+    <style>
+        * {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		.container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+            background-color: black;
+		}
+		.content {
+			width: 300px;
+			height: 200px;
+		}
+	</style>
+</head>
+<body>
+    <div class="container">
+		<div class="content">
+			<img src="{% static 'images/spongebob-dancing.gif' %}" alt="wojack" style="width: 100%; height: 100%;">
+            <h1 style="text-align: center; color: white">F**K LARAVEL 💀</h1>
+		</div>
+	</div>
+</body>
+</html>
